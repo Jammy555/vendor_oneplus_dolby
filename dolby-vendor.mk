@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     libdapparamstorage \
     libdlbpreg \
     libdlbvol \
+    libspatialaudio \
     libswdap \
     libswgamedap \
     libswvqe \
