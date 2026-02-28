@@ -2,6 +2,7 @@
 ## are from Sony Xperia 1V(pdx234) XQ-DQ72_Customized-SEA_67.2.A.3.141
 
 # libswdap are pinned from XQ-DQ72_Customized-SEA_67.2.A.3.141
+# liboem_specific.so pinned from pdx234 - sssi-user-14-67.1.A.2.112
 
 # Permissions & configs
 vendor/etc/media_codecs_dolby_audio.xml
@@ -28,6 +29,7 @@ vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdeccfg.so
 vendor/lib64/libdlbdsservice.so
 vendor/lib64/libdlbpreg.so
+vendor/lib64/liboem_specific.so|4717a9f2044858c5e48ed75bf7afb4d769e2a264
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 

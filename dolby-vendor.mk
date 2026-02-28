@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     libcodec2_store_dolby \
     libdeccfg \
     libdlbdsservice \
+    liboem_specific \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms.xml \
     vendor.dolby.media.c2@1.0-service.xml \
