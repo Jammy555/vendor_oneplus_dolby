@@ -20,10 +20,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SonyDolbyResCommon
 
-# Permissions
-PRODUCT_COPY_FILES += \
-    $(DOLBY_PATH)/configs/permissions/privapp-permissions-dolby.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-dolby.xml
-
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DOLBY_PATH)/sepolicy/vendor
 

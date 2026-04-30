@@ -318,7 +318,7 @@
         <graphic-equalizer-enable value="true"/>
         <virtualizer-enable value="false"/>
         <bass-enhancer-enable value="true"/>
-        <virtual-bass-process-enable value="true"/>
+        <virtual-bass-process-enable value="false"/>
         <hearing-protection-enable value="false"/>
         <hearing-protection-rms-averaging-time-win-len value="6"/>
         <hearing-protection-rms-attenuation-target value="-256"/>
@@ -417,7 +417,7 @@
         <graphic-equalizer-enable value="true"/>
         <virtualizer-enable value="true"/>
         <bass-enhancer-enable value="true"/>
-        <virtual-bass-process-enable value="true"/>
+        <virtual-bass-process-enable value="false"/>
         <hearing-protection-enable value="false"/>
         <hearing-protection-rms-averaging-time-win-len value="6"/>
         <hearing-protection-rms-attenuation-target value="-256"/>
@@ -516,7 +516,7 @@
         <graphic-equalizer-enable value="true"/>
         <virtualizer-enable value="false"/>
         <bass-enhancer-enable value="false"/>
-        <virtual-bass-process-enable value="true"/>
+        <virtual-bass-process-enable value="false"/>
         <hearing-protection-enable value="false"/>
         <hearing-protection-rms-averaging-time-win-len value="6"/>
         <hearing-protection-rms-attenuation-target value="-256"/>
@@ -544,7 +544,7 @@
         <volume-leveler-out-target value="-256"/>
         <graphic-equalizer-enable value="true"/>
         <virtualizer-enable value="false"/>
-        <bass-enhancer-enable value="true"/>
+        <bass-enhancer-enable value="false"/>
         <virtual-bass-process-enable value="false"/>
         <hearing-protection-enable value="false"/>
         <hearing-protection-rms-averaging-time-win-len value="6"/>
@@ -643,7 +643,7 @@
         <volume-leveler-out-target value="-256"/>
         <graphic-equalizer-enable value="true"/>
         <virtualizer-enable value="false"/>
-        <bass-enhancer-enable value="true"/>
+        <bass-enhancer-enable value="false"/>
         <virtual-bass-process-enable value="false"/>
         <hearing-protection-enable value="false"/>
         <hearing-protection-rms-averaging-time-win-len value="6"/>
@@ -1340,7 +1340,7 @@
       <regulator-stress-amount value="96,96,96,96"/>
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0"/>
-      <virtual-bass-mode value="3"/>
+      <virtual-bass-mode value="0"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="99" frequency_high="281"/>
@@ -1433,7 +1433,7 @@
       <regulator-stress-amount value="96,96,96,96"/>
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0"/>
-      <virtual-bass-mode value="3"/>
+      <virtual-bass-mode value="0"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="99" frequency_high="281"/>
@@ -1524,7 +1524,7 @@
       <regulator-stress-amount value="96,96,96,96"/>
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0"/>
-      <virtual-bass-mode value="3"/>
+      <virtual-bass-mode value="0"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
@@ -1551,7 +1551,7 @@
     </data>
   </tuning>
   <authorized_technologies sku_name="DAX3 Android" device="dax3_android" bundle="DAP MOBILE v1.6">
-    <global_setting virtual_bass_process="2"/>
+    <global_setting virtual_bass_process="0"/>
     <global_setting atmos_game_system_gain="0"/>
   </authorized_technologies>
 </device_data>
