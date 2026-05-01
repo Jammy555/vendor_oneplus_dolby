@@ -176,32 +176,6 @@ private fun NavToolbarItem(
                     }
                 }
             }
-            
-            AnimatedVisibility(
-                visible = selected,
-                enter = expandHorizontally(
-                    animationSpec = MaterialTheme.motionScheme.defaultSpatialSpec(),
-                    expandFrom = Alignment.Start
-                ) + fadeIn(
-                    animationSpec = MaterialTheme.motionScheme.defaultEffectsSpec()
-                ),
-                exit = shrinkHorizontally(
-                    animationSpec = MaterialTheme.motionScheme.defaultSpatialSpec(),
-                    shrinkTowards = Alignment.Start
-                ) + fadeOut(
-                    animationSpec = MaterialTheme.motionScheme.defaultEffectsSpec()
-                ),
-                label = "text_visibility_$label"
-            ) {
-                Text(
-                    text = label,
-                    fontSize = 16.sp,
-                    maxLines = 1,
-                    softWrap = false,
-                    overflow = TextOverflow.Clip,
-                    modifier = Modifier.padding(start = ButtonDefaults.IconSpacing)
-                )
-            }
         }
     }
 }
